@@ -3,11 +3,8 @@ Gesture-controlled desktop system inspired by Iron Man-style UIs, built using Py
 
 SET-UP GUIDE:-
 1. install any one zip||
-
 2.extract in a empty folder||
-
 3.open cmd for the folder path||
-
 4.you have to install required things in requirement.txt
   use command:- 
 ||
