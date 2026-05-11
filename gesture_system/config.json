@@ -1,0 +1,33 @@
+{
+  "camera": {
+    "index": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "mediapipe": {
+    "min_detection_confidence": 0.75,
+    "min_tracking_confidence": 0.65
+  },
+  "gesture": {
+    "pinch_threshold": 0.32,
+    "pinch_hold_ms": 150,
+    "swipe_velocity": 0.04,
+    "fist_threshold": 0.5,
+    "point_threshold": 0.3
+  },
+  "window": {
+    "drag_scale_x": 2.5,
+    "drag_scale_y": 2.5,
+    "snap_edge_norm": 0.12,
+    "fling_edge_norm": 0.05
+  },
+  "show_debug_window": true,
+  "_notes": {
+    "pinch_threshold": "Lower = tighter pinch required. 0.25-0.40 is typical.",
+    "pinch_hold_ms": "Hold duration before grab fires. Increase to prevent misfires.",
+    "swipe_velocity": "Wrist x-velocity (normalized) to trigger desktop switch.",
+    "drag_scale": "Multiplier mapping hand motion to pixel movement. Increase for faster drag.",
+    "show_debug_window": "Set false to hide the OpenCV preview window."
+  }
+}

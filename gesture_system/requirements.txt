@@ -1,0 +1,21 @@
+# Core — required on all platforms
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+pyautogui>=0.9.54
+screeninfo>=0.8.1
+Pillow>=10.0.0
+
+# Windows only — volume control
+# pycaw>=20230407   (uncomment on Windows)
+# comtypes>=1.2.0   (uncomment on Windows)
+
+# Linux only — install system packages separately:
+#   sudo apt install wmctrl xdotool
+#   sudo apt install python3-tk
+
+# macOS only — window control via AppleScript (no extra pip needed)
+# pyobjc-framework-Quartz>=9.0  (optional, for native Quartz access)
+
+# System tray icon (optional, all platforms)
+# pystray>=0.19.5
+# Pillow already covers the icon image requirement
